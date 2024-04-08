@@ -1,0 +1,12 @@
+******************************REDUX***************************
+-----------------WHAT IS REDUX?------------------
+1.A Pattern: it means we can do things in a sequence.
+2.A Library
+3.Independent of Frameworks: it can be used alone and we cam use it in frontend and backened and even used in any mobile apps.
+4.State management in JS
+
+----------------------WHY REDUX USED IN REACT?-----------------------
+This is because React only allows for a uni-directional flow of data. That means data cannot be sent from a child 
+to a parent; it has to flow downward from the parent to the child. This thought model works very well with Redux 
+where we cannot directly modify the state. Instead, we dispatch actions that intend to change the state, and then 
+separately, we observe the resulting state changes.
