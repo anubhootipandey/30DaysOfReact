@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import './App.css'
+import { useEffect, useState } from 'react';
+import './App.css';
 
 const getRandomQuote = (quotes) => {
   return quotes[Math.floor(Math.random() * quotes.length)];
@@ -35,7 +35,7 @@ function App() {
         )}
     </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
