@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 
-
 async function fetchResults(query) {
   try {
     const response = await fetch(`https://api.github.com/search/users?q=${query}`);
@@ -15,10 +14,6 @@ async function fetchResults(query) {
 export default function App() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
-
-  // function handleSearch(event) {
-  //   setQuery(event.target.value);
-  // }
 
   async function handleSubmit(event) {
     event.preventDefault();
