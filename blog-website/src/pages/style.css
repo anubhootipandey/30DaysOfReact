@@ -1,0 +1,33 @@
+/* CSS for Home, SinglePost, and Blog */
+.page-container {
+    max-width: 800px; /* Limit content width */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px; /* Add some space around content */
+  }
+  
+  .page-title {
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+/* CSS for Blog */
+.blog-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 30px; 
+  }
+  
+  .blog-title {
+    color: #333; 
+  }
+  

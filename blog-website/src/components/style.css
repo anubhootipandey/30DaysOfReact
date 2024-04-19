@@ -1,0 +1,93 @@
+/* CSS */
+header {
+    background-color: #6F4E37; /* Coffee color */
+    width: 100%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  li:last-child {
+    margin-right: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* CSS for BlogPost */
+.blog-post {
+    background-color: #b15656; /* Light grey background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .blog-post h2 {
+    color: #333; /* Dark text color */
+  }
+  
+  .blog-post p {
+    color: #666; /* Medium grey text color */
+  }
+  
+  /* CSS for BlogList */
+  .blog-list {
+    background-color: #e6b4b4; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .blog-list h2 {
+    color: #333;
+    margin-bottom: 20px; 
+  }
+  
+  .blog-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .blog-list li {
+    margin-bottom: 10px;
+  }
+  
+  .blog-list a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .blog-list a:hover {
+    text-decoration: none;
+    color: #6F4E37;
+  }
+  
+  
