@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import BlogPost from '../components/BlogPost';
 import { useParams } from 'react-router-dom';
 
@@ -9,8 +9,19 @@ const blogPosts = [
   ];
 
 const SinglePost = () => {
-    const { id } = useParams();
-    const post = blogPosts.find(post => post.id === parseInt(id));
+  const { id } = useParams();
+  const [post, setPost] = useState(null);
+
+  useEffect(() => {
+    // Retrieve post data from localStorage based on ID
+    const storedPosts = JSON.parse(localStorage.getItem('blogPosts'));
+    const foundPost = storedPosts.find(item => item.id === parseInt(id));
+    setPost(foundPost);
+  }, [id]);
+
+  if (!post) {
+      return <p>Post not found!</p>;
+  }
   
     return (
       <div>
