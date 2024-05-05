@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.recipe {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.recipe h2 {
+  margin-bottom: 10px;
+}
+
+.recipe ul,
+.recipe ol {
+  margin-left: 20px;
+}
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
