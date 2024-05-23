@@ -1,9 +1,9 @@
-// components/MoodBoard.js
 import React, { useState } from 'react';
 import ImageUploader from './ImageUploader';
 import ImageGallery from './ImageGallery';
 import ImageNote from './ImageNote';
 import PageNotes from './PageNotes';
+import '../App.css';
 
 const MoodBoard = () => {
   const [images, setImages] = useState([]);

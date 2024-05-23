@@ -1,12 +1,9 @@
-/* App.css */
-.App {
-  text-align: center;
-  margin-top: 50px;
-}
-
+/* style.css */
 .mad-libs-game {
-  margin: 0 auto;
-  max-width: 600px;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: linear-gradient(to bottom, #242F9B, #646FD4, #9BA3EB, #DBDFFD);
+  color: white;
 }
 
 .word-input {
@@ -14,24 +11,33 @@
 }
 
 .word-input h3 {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-.word-input input {
+.word-input form {
+  display: flex;
+}
+
+.word-input input[type="text"] {
+  flex: 1;
+  padding: 10px;
   margin-right: 10px;
-  padding: 5px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+
 }
 
 .word-input button {
-  padding: 5px 10px;
-  background-color: #007bff;
-  color: #fff;
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #333;
   border: none;
   cursor: pointer;
 }
 
 .word-input button:hover {
-  background-color: #0056b3;
+  background-color: #ddd;
 }
 
 .story-template {
@@ -43,19 +49,18 @@
 }
 
 .story-template p {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 18px;
 }
 
 button {
+  margin-right: 10px;
   padding: 10px 20px;
-  background-color: #28a745;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   border: none;
   cursor: pointer;
-  margin-right: 10px;
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #ddd;
 }

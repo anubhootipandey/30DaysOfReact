@@ -1,5 +1,5 @@
-// components/PageNotes.js
 import React, { useState } from 'react';
+import '../App.css';
 
 const PageNotes = ({ onSave }) => {
   const [pageNote, setPageNote] = useState('');

@@ -3,11 +3,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: slateblue;
 }
 
 .container {
-  background-color: white;
+  background-color: rgb(154, 142, 238);
   padding: 20px;
   width: 500px;
   border-radius: 10px;
@@ -33,11 +33,12 @@ input[type="text"] {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: rgb(212, 208, 238);
 }
 
 button {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: rgb(82, 64, 199);
   color: white;
   border: none;
   border-radius: 5px;

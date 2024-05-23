@@ -1,5 +1,5 @@
-// components/ImageGallery.js
 import React from 'react';
+import '../App.css';
 
 const ImageGallery = ({ images, onDelete }) => {
   return (

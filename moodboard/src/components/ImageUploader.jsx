@@ -1,5 +1,5 @@
-// components/ImageUploader.js
 import React, { useState } from 'react';
+import '../App.css';
 
 const ImageUploader = ({ onUpload }) => {
   const [selectedFile, setSelectedFile] = useState(null);

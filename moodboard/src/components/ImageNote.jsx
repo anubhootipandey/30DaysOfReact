@@ -1,5 +1,5 @@
-// components/ImageNote.js
 import React, { useState } from 'react';
+import '../App.css';
 
 const ImageNote = ({ onAddNote }) => {
   const [note, setNote] = useState('');
