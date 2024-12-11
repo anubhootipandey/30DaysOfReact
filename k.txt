@@ -10,3 +10,5 @@ This is because React only allows for a uni-directional flow of data. That means
 to a parent; it has to flow downward from the parent to the child. This thought model works very well with Redux 
 where we cannot directly modify the state. Instead, we dispatch actions that intend to change the state, and then 
 separately, we observe the resulting state changes.
+
+-------------------------REDUX TOOLKIT-------------------------
